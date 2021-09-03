@@ -19,6 +19,7 @@ body{
     height: 40px;
     padding-left: 20px;
 }
+
 .navbar-nav li{
     padding: 0 10px;
 }
@@ -47,7 +48,7 @@ body{
     margin-top: 40px;
 }
 .play-btn{
-    margin: 20px;
+    margin: 5px;
     width: 45px;
 }
 #banner a{
