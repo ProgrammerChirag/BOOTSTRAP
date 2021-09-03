@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agency website Template</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+
+<body>
+    <section id="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img
+                        src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAABBVBMVEX////UAAAAAAD7///PAAD//PzVAAXrwMDEQkDWAAD39/dQUFAjIyP8/PzZAAD//f/g4OB3d3fx8fGWlpbMSEg3NzfGAAAeHh7Q0NBjY2MREREZGRnEAADmt7onJyft7e0NDQ3Ly8ttbW27AADKOTm+vr6srKz///mgoKC1tbXX19dYWFiGhoZAQED/+f/47+v1//kwMDBJSUnJjJzDUUf14Ne5JSrEGBTakYzHaWn54+K0MS/rx8Lfm5jJdXbIPUfONjHirajzzty7GxvQWFjdtazMgoH+8+nDVVj33dzakZHAYV735Ozhp5/dpanHcHfRZGq3QkC7FBfddnPJo63kpJfSSkXskmaaAAAJbUlEQVR4nO2cDVvaWBbHb3IT7EVugqEGBQYCFKKIgm6drq526+rUaWfs7k53+v0/yp5zkwAJoXUAJfE5v+fBws0L55/zcl8SyhhBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEARBEGuFM5Nv2oanxUaRLxqbj+1N2/C0cM7kpm14Uswx+5u/aSOeDFtKaY/eNl6uQnnC+fnP1jtz04Y8Gb7NtgzDKLxchbb/d8MQVqO4aUOeBJvbbHThWpZmdEebNuYp4PyEX/5DswxN0xovU6HNrxrCEkbhxSr0r7sQoOhCzX2RCtl7QxhCE6BRuJebNmatcA79/Pjyn8p7iBDGh28Rdxcfbz6NcCcuZS4H5Gg0H7N/3WpTBATrLI3G3c2I2Scyl0MdcI7ps18a1kQfROkMlvpjGe77c5bTGQfnpvnR1bCEhgoNbUYjfnYhP12tcZG/+mNDiNo2v//VgCIqtBkvzgIehE7SKgjRvfbB45u2+i/BUeSnW1d7HKLx68jOVbXxTZjsbjWswo/FRe68vYewzo9I0x77n7sQgY9VCHX13TnLUafB2f1vhlawjB9rC8A9u7/nKFA5M2EgUxCPVgg9pSZuizw3/aIPUfrQFY/PwyBU7/Kz2KgqzVXXenQeKgraF56XtTgYz7ATPnr1+ChFhNG9zI0Tue+PoQ//N8wqjKkjBaZmhPqckKj9h3EzN7mIU1927QpjdmphGJNRG65LJfLUEt1P3PbzM0rFDvzKtdRwNIhCGHsXItCjySgV2gV0+3nJRYadhs9+/wBj7yAcCzAEaEynTmKuDoGDG5c5GtggnI1Hd64WiAEfNf78KeLha9eN5SF2iQ3xwHImEfnsigIUHBFfxQAH37gw8Em48TXLUR6GcP+mq2qMFluJsk/G/vmtZcTrqeiO8udC0Hj+B8RpYr2U48z+spsYu1qNq/xFKZcn4/v/qvW2WYU2TJFtfmMkRgXGNct2hyiLc7XeBI3c/OiiF2eiFFxlm9z8I1FRja+ZVgj6ZIpGhrfwH7DzNxJ3Zjh7H8/Dgnb3LJYuS1E6jiPT7i/5HJf2tXcn8WbObuIrHYZ4leUJBgiU6jW/iZ9wfv8qeYcUxnW/JBW+ybRC5hSLIDBFoS1N2zZ/c+M5BgqvjE0pTE+nxbvjH+W/dIWIydn/EkuGeGd4TuEzUVxkZzoqMkGb4xSdhQeOuTmOt6xfoWTlKS0ntqkcZxC9caIjDyo9JmXsbKxXOWgF2iQLaylzyr3+QaVSOej3yrNqbTb31NcT+HCgz1LvHEYWS6an04T6j/48xA9nqFAqB2MwFo+xsQfCigr8gspx7PDjymCqx07eoVi/wmJ9TsEBC7OoNGmqlerNqgefq6Wq7gTWt6C5WdWHuGsxRO7j3lW9FTWwwRG2lErVJr48eO/V9KNQI/TxySKyfoVHaU4qJxR6VZQGf+t1T28HemRFB8nVuj6QU4FtFQd1vQ/1JdypXqvrpVqtCsqqelNXB3l6ZZE98wqt1RQepAdimcUUlnS4+iWwrYS2geVgPjvW8XOtfgYudEKPnVbV3qUjpvzMdnRUB6+qOrgKapt6swoSh8+ksL0g1XQnpnCGwHbs5cDXYDCEZA8Vgm4HMhMPASW62ov1dLgwsFMNA6N6Wm9iwNfqJfRl73kU7sXp7URCOlOFncFeu92GrfBqt51QoYQ60wQpoHA3VFiUTU8phLa2UrgL70ogr9Iu42ZWbLXaENxNVNp8FoXzXbiMNGIqBgohnqQCSyZWTow/R3ZAnFeqexBxBxIVOnIIFUn36ujaIQxmICvrEKHeNpbZ6Cow6Rx5Naw4vQUD8hSFK8wt2orBbFMoEQtq6MPyYG8A7huof/YG7SDnapCaTQw+8JujrG+BIFVGoPmUqTLTRI+WlT+VQgfFtuBCeLpXcZ5DYSnMrVn0SVtaHmIAY6Fsq5Tb2a9CR6LvoI/A/V6zpPerJU/FQFF2oPLq9e0gJ6MXtG9DJurefuogcN0Kd5XN+7G2jmo7XqQQN0C8DgNP70UxHQwdPL3GzlRLH1qOo5RWowI5GdpOv2EzCofh98t0hcXZvnLAtsMzyFBPPzz+aEZh0llBIuw+TqG2foVH343SdrBTOfg0GfTtQc+A1CY9EMiK1MeRTA189LNNKWwFBlYmCrdxzBxxGO7Vn7guMvc0Ck45uRSBr7y5b62p9p1NKMRUCdJIH0wUpo4+jiI9kTeD2GxOtw2jy6AfznZLkI6H+uTgZ1cIIRa0BGVgscJisJca3E1GCToOVGQ0EmxOwiGhJdStt55R4elOyP7E1PJU4fFOgk45TLqSOoczFRgUj/LkFJ1oQ6fSP+z1eof9yrQp3aKUWvphdYXzBFc9vT9EpwZ+U5kUdRxIUIZkPTyHdFKPD12YviZi863ESpS10jrNAoUH7DsKsQYGtSIsO8VoSzRy6Ew+7S0UOEixhuFiIk+ZH65bYW2PfUeh50ziMFrzqISbyuHnsJTgBL+cfg13y/O2BApt9lPyTvdK66Wn819+Oq0L89P/8OIHkk6j/WRU/sPACytMELO97blTbC+YOTFcJ2YfE6v6YqVHTva3Y+wP+7MX92h7jrM+1vvOGb49mOzYwi5mmDhwsr11ODyrhuKqZ8PD9CIaYHKzqyUUfl1e33K/G5My5TCnVUw/W7S3dFqtVjibSDtBiM2/JB9IMa6XsTK73HeTd/Pdqwwv6v91Rh+STysI937pZzG4n7Gbq9x86GqzlRTfG6/50k8o2v7V1dVWdvjz/a2R7CmEsB6Wf6ydszeaMLKEZc0rhCDly0o02Td8ziozCG3uqS8hjAtmL/1raFCYfMxq48TtMYTV/cSWf1DYZ6/Fgi/KCq51say6fCg0rNV+vJd9hYVVCmkuFIq39ko/8cq0QuzGrJ/v528wvhiFINFqnI+X7gqzr1BolnvOVhOYbYWae3vObXu1R2myqBAfbNc0y9K6d/d85f+9JosKLfVjBVd0P5vcXvmRxAwqFK4LJUZrXJzDzO5FKoT4BJEX57joZq/+wzWOCkWGgDR0u6+/jFAe9/3Vp+fcv3jz7VV2eHv3/nrr5Md2Px58aC5byxhs+cnuotOZ+FPb7OCvIzRnFTI+5mZ2QI1srf/XgG/jT+SzA3jQX69CgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgiAIgsgm/weqluQtRt7D7wAAAABJRU5ErkJggg=="
+                        alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT US</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">TESTMONIALS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link " href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
+    <!-- banner section -->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="Promo-title">BEST DIGITAL AGENCY</p>
+                    <p>Suscribe Easy tutorials Youtube channel to watch more videos on website development , python ,
+                        digital marketing , graphics Desging.</p>
+                    <a href="https://youtu.be/v0IgI8vYD_o" class="play-btn">Watch tutorials</a>
+                </div>
+                <div class="col-md-6 text-centre">
+
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
